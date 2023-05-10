@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    /* background-color: palegreen; */
+
+}
+
+header {
+    width: 100%;
+    padding: 1% ;
+    /* background-color: palegreen; */
+    display: flex;
+
+    -webkit-box-shadow:  0 -32px 14.5px -25px #dddddd;
+-moz-box-shadow:  0 -32px 14.5px -25px #dddddd;
+box-shadow:  0 -32px 14.5px -25px #dddddd;
+
+}
+
+header > a {
+    
+}
+
+header > a > img {
+    width: 50px;
+    opacity: 80%;
+    transition: .4s;
+}
+
+header > a > img:hover {
+    opacity: 100%;
+}
+
+main {
+    width: 100%;
+    /* background-image: url('../img/bg1.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+
+    
+
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Landing */
+
+#landing {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    
+}
+
+#landing > .container {
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+    margin: 0 auto;
+}
+
+#landing > .container > .left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#landing > .container > .left > .content {
+    width: 100%;
+    /* background-color: red; */
+}
+
+#landing > .container > .left > .content > h2 {
+    font-size: 2.5rem;
+    color: #070707;
+    text-shadow: -7px 10px 20px rgba(0,0,0,0.4);
+}
+
+#landing > .container > .left > .content > h2 > b {
+    font-size: 4rem;
+    color: #000;
+    text-shadow: -7px 10px 20px rgba(0,0,0,0.4);
+}
+
+#landing > .container > .left > .content > p {
+    margin: 3% 0 5% 0;
+    opacity: 80%;
+}
+
+#landing > .container > .left > .content > a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5%;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 2% 8%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT */
+
+#landing > .container > .right {
+    width: 50%;
+    display: flex;
+    
+    /* background-color: #fff; */
+}
+
+#landing > .container > .right > img {
+    max-width: 100%; 
+    margin: 0 auto;
+    /* background-color: red; */
+}
